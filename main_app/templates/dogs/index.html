@@ -1,0 +1,9 @@
+{% for dog in dogs %}
+    <p>{{ dog.name }}</p>
+    {% if cat.age > 0 %}
+        <p>Age: {{ dog.age }}</p>
+    {% else %}
+        <p>{{ dog.name }} is a puppy</p>
+    {% endif %}
+    <hr />
+{% endfor %}
